@@ -6,10 +6,10 @@ import Home from "./../home";
 function header() {
     return (
       <>
-        <nav class="navbar navbar-dark">
-            <div class="container">
-                <NavLink to="/" class="navbar-brand"> CYSWITCH </NavLink>
-                <button class="btn gldn">Connect to Wallet</button>
+        <nav className="navbar navbar-dark">
+            <div className="container">
+                <NavLink to="/" className="navbar-brand"> CYSWITCH </NavLink>
+                <button className="btn gldn">Connect to Wallet</button>
             </div>
         </nav>
       </>
