@@ -1,0 +1,257 @@
+*{
+  padding: 0px;
+  margin: 0;
+}
+body{
+  background-color: black;
+  font-family: 'Saira', sans-serif;
+  color: white;
+}
+h1, h2, h3, h4, h5, h6{
+  background-image:linear-gradient(90deg, #b47e11, #fef1a2, #bc881b) !important;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+}
+.navbar{
+  padding-top: 1rem;
+  margin-bottom: -110px;
+  z-index: 1;
+}
+.gldn{
+  background-image: linear-gradient(90deg, #b47e11, #fef1a2, #bc881b);
+  font-weight: bold;
+}
+.gldn-border{
+  border-image: linear-gradient(to left, #b47e11, #fef1a2, #bc881b) 10 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  border-width: 2px;
+  border: solid;
+  background-image:linear-gradient(90deg, #b47e11, #fef1a2, #bc881b) ;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*Section 1*/
+.section1 .content{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.section1 .content .img {
+  width: 100%;
+}
+.section1 .content .img img{
+  width: 100%;
+}
+.section1 .content .text{
+  position: absolute;
+  bottom: 18%;
+  width: 70%;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section1 .content .text h1{
+  margin: 2vh 0rem;
+  font-size: 4vw;
+  font-weight: bold;
+}
+.section1 .content .text p{
+  margin: 2vh 0rem;
+}
+/*Section 2*/
+.section2{
+  padding: 20px 0px;
+}
+.data{
+  padding: 1.1rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(90deg, #bc891b21, transparent);
+  border-radius: 8px !important;
+  color: #f9f7e8 ;
+}
+.data h2{
+  width: fit-content;
+}
+/*Section 3*/
+.section3, .section4, .section5{
+  padding: 30px 0px;
+}
+.section3 .text{
+  padding-right: 5rem;
+}
+.section3 .row img{
+  width: 80%;
+}
+
+/*Section 4*/
+.section4 .img img{
+  width: 90%;
+}
+.section4 .text{
+  padding-right: 5rem;
+}
+/*section 5*/
+.section5{
+  padding: 50px 0px;
+}
+.section5 .textarea h1{
+  padding-bottom: 20px;
+  max-width: 500px;
+}
+.section5 .textarea p{
+  max-width: 85%;
+}
+.section5 .pair-grid .txt{
+  padding: 0px 15px;
+}
+.section5 .pair-grid .txt h5{
+  margin: 0;
+  padding: 0px;
+  color: white;
+  -webkit-text-fill-color: white;
+}
+.section5 .pair-grid .txt p{
+  margin: 0;
+  padding: 0px;
+}
+.section5 .pair-grid .pair{
+  padding: 10px 25px;
+  background-color: transparent;
+}
+.section5 .pair-grid .pair .pair-card{
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.046);
+  border-radius: 8px;
+}
+.section5 .pair .img2 img{
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
+.section6 .data .circle{
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.115);
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.section6 .data .circle h4{
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+.section6 .data h5{
+  padding: 0px;
+  margin-top: 20px;
+}
+.section6 .data p{
+  padding: 0px;
+  font-size: small;
+  font-weight: lighter;
+}
+/*footer*/
+.footer{
+  padding: 40px 20px;
+}
+.footer .row .footer-col{
+  padding: 20px 0px 20px 30px;
+}
+.footer h2{
+  -webkit-text-fill-color: white;
+}
+.footer .navbar-brand img{
+  height: 25px;
+  padding: 0px;
+}
+.footer ul{
+  margin: 0px;
+  padding: 0px;
+}
+.footer li{
+  list-style: none;
+  margin-bottom: 7px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.footer li a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer .social .bi{
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.105);
+  padding: 20px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.copyright{
+  padding: 30px opx;
+}
+.left h5{
+  margin: 0px 5px;
+}
+.links{
+  justify-content: end;
+}
+.links a{
+  color: white;
+  text-decoration: none;
+}
+.links p{
+  margin: 0px 3px;
+}
+@media (max-width:786px){
+  .navbar{
+      margin-bottom: 0px;
+  }
+  .links, .left{
+      justify-content: center;
+  }
+  .section3 .text, .section4 .text{
+      text-align: center;
+      width: fit-content;
+      margin: auto;
+      padding: 30px 0px 0px 0px;
+  }
+  .section5 .pair-grid .pair .pair-card{
+      padding: 10px;
+  }
+  .section5 .pair-grid .pair .pair-card .img2{
+      width: fit-content;
+  }
+  .section5 .pair-grid .pair .pair-card img{
+      width: 30px;
+  }
+  .section3 img{
+      display: block;
+      margin: auto;
+  }
+  .section4 .row{
+      flex-direction: column-reverse;
+  }
+  .section4 .row img{
+      display: block;
+      margin: auto;
+  }
+  
+  .item1 h5{
+      font-size: 18px;
+  }
+  .item1 p{
+      font-size: 14;
+  }
+  .section5 .pair-grid .txt{
+      padding-right: 0px;
+  }
+}
