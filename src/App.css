@@ -7,6 +7,9 @@ body{
   font-family: 'Saira', sans-serif;
   color: white;
 }
+.btn{
+  margin: 0px 3px;
+}
 h1, h2, h3, h4, h5, h6{
   background-image:linear-gradient(90deg, #b47e11, #fef1a2, #bc881b) !important;
   font-weight: bold;

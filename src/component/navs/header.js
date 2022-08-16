@@ -1,7 +1,6 @@
 import React from "react";
 import './../../App.css';
 import {NavLink} from "react-router-dom";
-import Home from "./../home";
 
 function header() {
     return (
